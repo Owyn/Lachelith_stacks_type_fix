@@ -10,8 +10,8 @@ module.exports = function Lachelith_stacks_type_fix(d) {
 		if (event.id == 97000033) 
 		{
 			event.id = 46753;
+			return true;
 		}
-		return true;
 	}
 
 	dispatch.hook('S_ABNORMALITY_BEGIN', 1, aHook)
