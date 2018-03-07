@@ -14,7 +14,7 @@ module.exports = function Lachelith_stacks_type_fix(d) {
 		}
 	}
 
-	dispatch.hook('S_ABNORMALITY_BEGIN', 1, aHook)
+	dispatch.hook('S_ABNORMALITY_BEGIN', 2, aHook)
 	dispatch.hook('S_ABNORMALITY_END', 1, aHook)
 
 }
