@@ -3,7 +3,7 @@
 // 46753	StackCounter	Buff	True	seta	10000	0	46751	Shriek			When stacked, produces Hardened Bark.	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
 
 
-module.exports = function Lachelith_stacks_type_fix(d) {
+module.exports = function Lachelith_stacks_type_fix(dispatch) {
 	
 	function aHook(event)
 	{
